@@ -16,6 +16,12 @@ and this project adheres to
 
 - Privacy policy mentions the GitHub link under external links.
 
+### Fixed
+
+- Page can be scrolled vertically again on small screens.
+- Footer text and Ko-fi icon are sized for mobile; the Ko-fi label is only shown
+  on large screens.
+
 ## [1.0.0] - 2026-11-08
 
 ### Added
