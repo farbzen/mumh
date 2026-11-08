@@ -84,7 +84,7 @@ devenv shell -- serve   # http://localhost:8000
 > the CSS first – the `build` script does both steps in the right order.
 
 > [!TIP]
-> Every push to `main` is deployed to GitHub Pages automatically, see
+> Every published GitHub release is deployed to GitHub Pages automatically, see
 > [Deployment](docs/deployment.md).
 
 ## Documentation
