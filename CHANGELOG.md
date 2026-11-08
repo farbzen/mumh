@@ -11,6 +11,7 @@ and this project adheres to
 ### Fixed
 
 - Root element clips overflow again, as it did before 1.0.1.
+- Footer takes up less vertical space on small screens.
 
 ## [1.0.1] - 2026-11-09
 
