@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src=".assets/logo.png" alt="MUMH logo" width="160" />
+
 # MUMH – Mixed Up Monster Hunter
 
 _A Monster Hunter Wilds randomizer that rolls the next hunt and a weapon for
