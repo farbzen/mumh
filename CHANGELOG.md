@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Root element clips overflow again, as it did before 1.0.1.
+
 ## [1.0.1] - 2026-11-09
 
 ### Added
@@ -20,7 +24,6 @@ and this project adheres to
 
 ### Fixed
 
-- Page can be scrolled vertically again on small screens.
 - Footer text and Ko-fi icon are sized for mobile; the Ko-fi label is only shown
   on large screens.
 
