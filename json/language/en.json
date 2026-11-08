@@ -65,6 +65,7 @@
   "name": "Name",
   "copyright": "Fabian Meier · Not an official Capcom product. Monster Hunter and related content: © Capcom Co., Ltd.",
   "support_kofi": "Support me on Ko-fi",
+  "github_profile": "My GitHub profile",
   "legalnotice": "Legal notice",
   "legal_country": "Germany",
   "legal_address_alt": "Name and postal address of the site operator",
@@ -86,7 +87,7 @@
   "privacy_storage_headline": "Local Storage in Your Browser",
   "privacy_storage_body": "So that your settings (language, number of players, player names, weapons and the last rolled monster) are kept for your next visit, this website saves them in your browser's local storage (localStorage). This data never leaves your device and is not transmitted to us or to third parties. Storing it is strictly necessary for the function you requested (Section 25(2) No. 2 TDDDG), so no consent is required. You can delete the data at any time via your browser settings. No cookies, analytics or tracking services are used.",
   "privacy_links_headline": "External Links",
-  "privacy_links_body": "This website contains a link to Ko-fi. Data is only transmitted to Ko-fi once you click the link; Ko-fi is responsible for any processing that takes place there.",
+  "privacy_links_body": "This website contains links to Ko-fi and GitHub. Data is only transmitted to the respective provider once you click one of these links; the respective provider (Ko-fi or GitHub, Inc.) is responsible for any processing that takes place there.",
   "privacy_rights_headline": "Your Rights",
   "privacy_rights_body": "You have the right of access (Art. 15 GDPR), rectification (Art. 16 GDPR), erasure (Art. 17 GDPR), restriction of processing (Art. 18 GDPR) and data portability (Art. 20 GDPR). Where processing is based on Art. 6(1)(f) GDPR, you may object to it on grounds relating to your particular situation (Art. 21 GDPR). You also have the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR), for example the State Commissioner for Data Protection of Lower Saxony, which is responsible for the operator.",
   "privacy_advertising_body": "The use of contact data published within the framework of the imprint obligation by third parties for sending unsolicited advertising and information materials is hereby expressly prohibited. The operators of the pages expressly reserve the right to take legal action in the event of the unsolicited sending of advertising information, for example through spam emails."

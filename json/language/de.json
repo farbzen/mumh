@@ -65,6 +65,7 @@
   "name": "Name",
   "copyright": "Fabian Meier · Kein offizielles Capcom-Produkt. Monster Hunter und zugehörige Inhalte: © Capcom Co., Ltd.",
   "support_kofi": "Unterstütze mich auf Ko-fi",
+  "github_profile": "Mein GitHub-Profil",
   "legalnotice": "Impressum",
   "legal_country": "Deutschland",
   "legal_address_alt": "Name und Anschrift des Seitenbetreibers",
@@ -86,7 +87,7 @@
   "privacy_storage_headline": "Lokale Speicherung im Browser",
   "privacy_storage_body": "Damit Ihre Einstellungen (Sprache, Spieleranzahl, Spielernamen, Waffen und das zuletzt gewürfelte Monster) beim nächsten Besuch erhalten bleiben, speichert diese Webseite sie im lokalen Speicher (localStorage) Ihres Browsers. Diese Daten verlassen Ihr Gerät nicht und werden weder an uns noch an Dritte übertragen. Die Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG), eine Einwilligung ist daher nicht nötig. Sie können die Daten jederzeit über die Einstellungen Ihres Browsers löschen. Cookies sowie Analyse- oder Tracking-Dienste werden nicht eingesetzt.",
   "privacy_links_headline": "Externe Links",
-  "privacy_links_body": "Diese Webseite enthält einen Link zu Ko-fi. Erst wenn Sie den Link anklicken, werden Daten an Ko-fi übertragen; für die dortige Verarbeitung ist Ko-fi verantwortlich.",
+  "privacy_links_body": "Diese Webseite enthält Links zu Ko-fi und zu GitHub. Erst wenn Sie einen dieser Links anklicken, werden Daten an den jeweiligen Anbieter übertragen; für die dortige Verarbeitung ist der jeweilige Anbieter (Ko-fi bzw. GitHub, Inc.) verantwortlich.",
   "privacy_rights_headline": "Ihre Rechte",
   "privacy_rights_body": "Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO) und Datenübertragbarkeit (Art. 20 DSGVO). Soweit die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht, können Sie ihr aus Gründen, die sich aus Ihrer besonderen Situation ergeben, widersprechen (Art. 21 DSGVO). Außerdem haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO), etwa bei der für den Betreiber zuständigen Landesbeauftragten für den Datenschutz Niedersachsen.",
   "privacy_advertising_body": "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor."

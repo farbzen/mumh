@@ -8,6 +8,14 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Link to the author's GitHub profile in the top left corner.
+
+### Changed
+
+- Privacy policy mentions the GitHub link under external links.
+
 ## [1.0.0] - 2026-11-08
 
 ### Added
