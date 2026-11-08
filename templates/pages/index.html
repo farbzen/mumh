@@ -1,0 +1,78 @@
+{% extends "layouts/main.html" %} {% block page %}
+<div class="flex justify-center">
+  <div id="monster" :class="phaseClass('monster')">
+    <div
+      class="size-160 text-4xl xl:size-96 xl:text-lg content-end p-3 mt-6 transition-all bg-contain bg-no-repeat bg-center"
+      :style="`background-image: url('assets/images/monsters/${monster.temper}_${monster.name}.webp')`"
+    >
+      <div
+        class="bg-linear-to-r from-black to-transparent bg-opacity-80 rounded-lg p-2"
+      >
+        <p
+          class="whitespace-nowrap drop-shadow-md"
+          x-text="t(monster.name)"
+        ></p>
+        <p
+          class="whitespace-nowrap drop-shadow-md"
+          x-text="t(monster.capture ? 'capture' : 'kill')"
+        ></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="w-full text-3xl xl:text-base my-5 flex justify-center">
+    <select
+      class="bg-slate-950 rounded-lg shadow-lg w-min py-2 px-4 mx-2"
+      x-model.number="hunterCount"
+      name="count"
+    >
+      {% for hunter_number in 1..5 %}
+      <option
+        value="{{ hunter_number }}"
+        x-text="'{{ hunter_number }} ' + t('players')"
+      ></option>
+      {% endfor %}
+    </select>
+    <button
+      class="bg-slate-950 opacity-70 hover:opacity-90 active:opacity-100 disabled:opacity-30 disabled:cursor-wait rounded-xl p-2 mx-2"
+      id="rollAll"
+      @click="rollAll()"
+      :disabled="rolling"
+    >
+      <img class="size-9" src="assets/images/reload.webp" />
+    </button>
+  </div>
+  <div class="flex justify-center">
+    <div class="w-full flex flex-wrap justify-center">
+      <template x-for="(hunter, index) in hunters" :key="index">
+        <div
+          :id="'hunter_' + (index + 1)"
+          :class="phaseClass(index)"
+          x-show="hunterCount > index"
+        >
+          <div
+            class="size-96 text-3xl content-end p-3 m-5 transition-all bg-contain bg-no-repeat bg-center xl:size-60 xl:text-lg"
+            :style="`background-image: url('assets/images/weapons/${hunter.weapon}.webp')`"
+          >
+            <div
+              class="bg-linear-to-r from-black to-transparent bg-opacity-80 rounded-lg p-2"
+            >
+              <input
+                type="text"
+                name="name"
+                class="bg-transparent h-8 w-full drop-shadow-md"
+                x-model.lazy="hunter.name"
+              />
+              <p
+                class="whitespace-nowrap drop-shadow-md"
+                x-text="t(hunter.weapon)"
+              ></p>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+</div>
+{% endblock %}

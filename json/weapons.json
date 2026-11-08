@@ -1,0 +1,18 @@
+{
+  "weapons": [
+    { "name": "great_sword" },
+    { "name": "long_sword" },
+    { "name": "sword_and_shield" },
+    { "name": "dual_blades" },
+    { "name": "hammer" },
+    { "name": "hunting_horn" },
+    { "name": "lance" },
+    { "name": "gunlance" },
+    { "name": "switch_axe" },
+    { "name": "charge_blade" },
+    { "name": "insect_glaive" },
+    { "name": "bow" },
+    { "name": "light_bowgun" },
+    { "name": "heavy_bowgun" }
+  ]
+}

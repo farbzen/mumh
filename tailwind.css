@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-fadeIn: 0.1s ease-out forwards fadeIn;
+  --animate-fadeOut: 0.1s ease-out forwards reverse fadeIn;
+  --animate-slideInRight: 0.8s ease-out forwards slideInRight;
+  --animate-slideOutLeft: 0.2s ease-in forwards slideOutLeft;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(20rem);
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @keyframes slideOutLeft {
+    to {
+      transform: translateX(-20rem);
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+.card-out {
+  @apply !animate-slideOutLeft;
+}
+
+.card-in {
+  @apply !animate-slideInRight;
+}

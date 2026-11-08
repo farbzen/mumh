@@ -1,0 +1,25 @@
+<div
+  class="top-full sticky flex w-full py-[5%] xl:py-[1%] my-auto justify-center text-lg xl:text-xs"
+>
+  <div class="w-1/6 pl-4">
+    <a
+      href="javascript:;"
+      @click="legalOpen = true"
+      x-text="t('legalnotice')"
+    ></a>
+  </div>
+  <div class="w-2/3 text-center">
+    &copy; <span x-text="new Date().getFullYear()"></span>
+    <span x-text="t('copyright')"></span>
+  </div>
+  <div class="w-1/6 pr-4">
+    <a
+      href="https://ko-fi.com/farbzen"
+      target="_blank"
+      class="flex justify-end items-center gap-2 hover:text-amber-100 transition-colors"
+    >
+      <img src="assets/images/kofi.webp" alt="Ko-fi" class="h-4 aspect-auto" />
+      <span x-text="t('support_kofi')"></span>
+    </a>
+  </div>
+</div>

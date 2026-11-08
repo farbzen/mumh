@@ -1,0 +1,105 @@
+<div
+  id="modal_legal"
+  class="absolute top-0 left-0 size-full backdrop-blur-sm bg-[#00000066] overflow-y-auto"
+  x-show="legalOpen"
+  x-cloak
+  x-transition:enter="animate-fadeIn"
+  x-transition:leave="animate-fadeOut"
+  @keydown.escape.window="legalOpen = false"
+>
+  <div
+    class="absolute min-h-full w-full xl:w-1/3 transition-all bg-slate-900 shadow-black shadow-md p-8"
+  >
+    <a href="javascript:;" @click="legalOpen = false">
+      <img
+        src="assets/images/close.webp"
+        class="size-4 transition-all ml-auto"
+      />
+    </a>
+    <h1 class="text-center text-3xl font-bold" x-text="t('legalnotice')"></h1>
+    <p class="text-center" x-text="t('legal_accordance')"></p>
+    <br />
+    <img
+      src="assets/images/legal.webp"
+      :alt="t('legal_address_alt')"
+      width="196"
+      height="56"
+      class="mx-auto max-w-full h-auto"
+    />
+    <p
+      class="text-sm text-center text-gray-400"
+      x-text="t('legal_country')"
+    ></p>
+    <br />
+    <h2 class="text-center text-lg font-bold" x-text="t('legal_contact')"></h2>
+    <template x-if="legalOpen">
+      <p class="text-sm text-center text-gray-400">
+        <span x-text="t('legal_mail')"></span>
+        <a
+          :href="'mailto:' + mail()"
+          x-text="mail()"
+          class="underline hover:text-amber-100 transition-colors"
+        ></a>
+      </p>
+    </template>
+    <br />
+    <h2
+      class="text-center text-2xl font-bold"
+      x-text="t('legal_disclaimer')"
+    ></h2>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('legal_disclaimer_content_headline')"
+    ></h3>
+    <p x-text="t('legal_disclaimer_content_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('legal_disclaimer_links_headline')"
+    ></h3>
+    <p x-text="t('legal_disclaimer_links_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('legal_disclaimer_copyright_headline')"
+    ></h3>
+    <p x-text="t('legal_disclaimer_copyright_body')"></p>
+    <br />
+    <h2
+      class="text-center text-2xl font-bold"
+      x-text="t('privacy_headline')"
+    ></h2>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('privacy_controller_headline')"
+    ></h3>
+    <p x-text="t('privacy_controller_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('privacy_hosting_headline')"
+    ></h3>
+    <p x-text="t('privacy_hosting_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('privacy_storage_headline')"
+    ></h3>
+    <p x-text="t('privacy_storage_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('privacy_links_headline')"
+    ></h3>
+    <p x-text="t('privacy_links_body')"></p>
+    <br />
+    <h3
+      class="text-center text-xl font-bold"
+      x-text="t('privacy_rights_headline')"
+    ></h3>
+    <p x-text="t('privacy_rights_body')"></p>
+    <p x-text="t('privacy_advertising_body')"></p>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html
+  class="size-full overflow-hidden"
+  lang="{{ lang }}"
+>
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A Monster Hunter randomizer" />
+    <meta
+      name="keywords"
+      content="Monster, Hunter, MH, MHW, Wilds, Randomizer, Roulette, Mixed, Up"
+    />
+    <meta name="author" content="Fabian Meier" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <script type="application/json" id="mumh-data">
+      {{ data|safe }}
+    </script>
+    {% include "components/scripts.html" %}
+  </head>
+  <body
+    class="bg-slate-950 text-slate-50 size-full transition-colors overflow-hidden"
+    x-data="mumh"
+    x-effect="document.documentElement.lang = lang; document.title = t('title')"
+  >
+    <!-- x-cloak: texts are set by Alpine, hide the content until then -->
+    <div class="content-center" x-cloak>
+      {% include "components/header.html" %}
+    </div>
+    <div class="min-h-[89vh] bg-slate-900 content-center" x-cloak>
+      {% block page %}{% endblock %}
+    </div>
+    <div class="content-center" x-cloak>
+      {% include "components/footer.html" %}
+    </div>
+    {% include "components/modals/legal.html" %}
+  </body>
+</html>

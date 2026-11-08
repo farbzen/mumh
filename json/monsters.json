@@ -1,0 +1,238 @@
+{
+  "monsters": [
+    {
+      "name": "ajarakan",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "arkveld",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": true
+    },
+    {
+      "name": "balahara",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "blangonga",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "chatacabra",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "congalala",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "doshaguma",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "frenzied_blangonga",
+      "capturable": true,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "frenzied_gypceros",
+      "capturable": true,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "frenzied_hirabami",
+      "capturable": true,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "frenzied_nerscylla",
+      "capturable": true,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "frenzied_yian_kutku",
+      "capturable": true,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "gogmazios",
+      "capturable": false,
+      "tempered": false,
+      "arch_tempered": false
+    },
+    {
+      "name": "gore_magala",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "gravios",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "guardian_arkveld",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "guardian_doshaguma",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "guardian_ebony_odogaron",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "guardian_fulgur_anjanath",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "guardian_rathalos",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "gypceros",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "hirabami",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "jin_dahaad",
+      "capturable": false,
+      "tempered": true,
+      "arch_tempered": true 
+    },
+    {
+      "name": "lagiacrus",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "lala_barina",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "mizutsune",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "nerscylla",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "nu_udra",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": true
+    },
+    {
+      "name": "omega_planetes",
+      "capturable": false,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "quematrice",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "rathalos",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "rathian",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "rey_dau",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": true
+    },
+    {
+      "name": "rompopolo",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "seregios",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "uth_duna",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": true
+    },
+    {
+      "name": "xu_wu",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "yian_kutku",
+      "capturable": true,
+      "tempered": true,
+      "arch_tempered": false
+    },
+    {
+      "name": "zoh_shia",
+      "capturable": false,
+      "tempered": false,
+      "arch_tempered": false
+    }
+  ]
+}
