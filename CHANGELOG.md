@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-09
+
 ### Added
 
 - Link to the author's GitHub profile in the top left corner.
