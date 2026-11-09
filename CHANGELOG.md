@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-11-09
+
 ### Changed
 
 - Header uses a three-column grid: GitHub link, uppercase headline and language

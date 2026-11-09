@@ -7,7 +7,7 @@
 _A Monster Hunter Wilds randomizer that rolls the next hunt and a weapon for
 every hunter._
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge&labelColor=081216)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue?style=for-the-badge&labelColor=081216)](CHANGELOG.md)
 [![Rust](https://img.shields.io/badge/Rust-2024-orange?style=for-the-badge&logo=rust&labelColor=081216)](https://www.rust-lang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?style=for-the-badge&logo=tailwindcss&labelColor=081216)](https://tailwindcss.com/)
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-8bc0d0?style=for-the-badge&logo=alpinedotjs&labelColor=081216)](https://alpinejs.dev/)
