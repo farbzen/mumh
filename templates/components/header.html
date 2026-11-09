@@ -18,15 +18,15 @@
     </svg>
   </a>
   <h1 class="mx-auto uppercase" x-text="t('headline')"></h1>
-    <div class="flex ml-auto gap-4">
-      {% for language in languages %}
-      <a href="javascript:;" @click="setLang('{{ language }}')">
-        <img
-          src="assets/images/languages/{{ language }}.webp"
-          class="h-5 aspect-auto border-b-2 transition-all"
-          :class="lang == '{{ language }}' ? 'border-blue-600' : 'border-transparent'"
-        />
-      </a>
-      {% endfor %}
-    </div>
+  <div class="flex ml-auto gap-4">
+    {% for language in languages %}
+    <a href="javascript:;" @click="setLang('{{ language }}')">
+      <img
+        src="assets/images/languages/{{ language }}.webp"
+        class="h-5 aspect-auto border-b-2 transition-all"
+        :class="lang == '{{ language }}' ? 'border-blue-600' : 'border-transparent'"
+      />
+    </a>
+    {% endfor %}
+  </div>
 </div>
