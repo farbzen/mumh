@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.4] - 2026-11-09
+
 ### Changed
 
 - Footer states that MUMH is a fan-made derivative work instead of using
