@@ -1,8 +1,5 @@
 <!doctype html>
-<html
-  class="size-full overflow-hidden"
-  lang="{{ lang }}"
->
+<html class="size-full overflow-hidden" lang="{{ lang }}">
   <head>
     <title>{{ title }}</title>
     <meta charset="UTF-8" />
@@ -18,10 +15,11 @@
     <script type="application/json" id="mumh-data">
       {{ data|safe }}
     </script>
-    {% include "components/scripts.html" %}
+    <script defer src="assets/js/app.js"></script>
+    <script defer src="assets/js/alpine.js"></script>
   </head>
   <body
-    class="bg-slate-950 text-slate-50 size-full transition-colors overflow-hidden"
+    class="bg-slate-950 text-slate-50 size-full transition-colors overflow-x-hidden"
     x-data="mumh"
     x-effect="document.documentElement.lang = lang; document.title = t('title')"
   >

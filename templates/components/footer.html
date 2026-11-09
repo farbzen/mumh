@@ -1,18 +1,18 @@
 <div
-  class="top-full sticky flex w-full py-[2%] xl:py-[1%] my-auto justify-center text-lg xl:text-xs"
+  class="top-full sticky flex w-full p-4 my-auto justify-center text-xs"
 >
-  <div class="w-1/6 pl-4 text-xs lg:text-base my-auto">
+  <div class="w-1/6 my-auto">
     <a
       href="javascript:;"
       @click="legalOpen = true"
       x-text="t('legalnotice')"
     ></a>
   </div>
-  <div class="w-2/3 text-center text-xs lg:text-base my-auto">
+  <div class="w-2/3 text-center my-auto">
     &copy; <span x-text="new Date().getFullYear()"></span>
     <span x-text="t('copyright')"></span>
   </div>
-  <div class="w-1/6 pr-4 my-auto">
+  <div class="w-1/6 my-auto">
     <a
       href="https://ko-fi.com/farbzen"
       target="_blank"

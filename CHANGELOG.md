@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Header uses a three-column grid: GitHub link, uppercase headline and language
+  flags share one row instead of being positioned absolutely.
+- Footer text and padding are equally small on all screen sizes.
+
+### Fixed
+
+- Page scrolls vertically again when its content exceeds the viewport; only
+  horizontal overflow is clipped.
+
 ## [1.0.2] - 2026-11-09
 
 ### Fixed
