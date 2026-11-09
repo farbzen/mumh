@@ -2,7 +2,7 @@
 
 <img src=".assets/logo.png" alt="MUMH logo" width="160" />
 
-# MUMH – Mixed Up Monster Hunter
+# MUMH – Mix Up My Hunt
 
 _A Monster Hunter Wilds randomizer that rolls the next hunt and a weapon for
 every hunter._
@@ -101,6 +101,7 @@ devenv shell -- serve   # http://localhost:8000
 See [LICENSE](LICENSE).
 
 > [!NOTE]
-> The MIT License covers the code of this project. Monster Hunter and related
-> content, including the monster and weapon images, are © Capcom Co., Ltd.; MUMH
-> is not an official Capcom product.
+> MUMH is a fan-made derivative work based on Capcom's Monster Hunter and not an
+> official or Capcom-authorized product. The MIT License covers only the code of
+> this project, not Capcom's intellectual property such as the monster and
+> weapon images, which will be removed at Capcom's request.

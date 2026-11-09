@@ -8,6 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Footer states that MUMH is a fan-made derivative work instead of using
+  Capcom's copyright notation, as required by Capcom's fan content guidelines.
+- GitHub profile link moved from the top left of the header to the right side
+  of the footer.
+- Product name changed to _Mix Up My Hunt_; Monster Hunter is only referenced
+  descriptively.
+
+### Removed
+
+- Ko-fi donation link, since the guidelines do not permit monetization.
+
 ## [1.0.3] - 2026-11-09
 
 ### Changed
