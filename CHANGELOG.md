@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-11-11
+
 ### Added
 
 - Legal notice names the person responsible for the content in accordance with
