@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Legal notice names the person responsible for the content in accordance with
+  § 18(2) MStV, in German and English.
+
 ## [1.0.4] - 2026-11-09
 
 ### Changed
